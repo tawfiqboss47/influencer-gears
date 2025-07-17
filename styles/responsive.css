@@ -1,0 +1,18 @@
+@media screen and (max-width: 576px) {
+    .container {
+        max-width: 90%;
+    }
+    .logo-brand h1 {
+        line-height: 37px;
+    }
+    .logo-brand h1 a {
+        font-size: 21px;
+    }
+    .mobile-menu-bar{
+        display: block;
+    }
+    .menu-items{
+        display: none;
+    }
+
+}
