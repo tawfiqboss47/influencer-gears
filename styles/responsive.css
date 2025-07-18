@@ -45,4 +45,33 @@
     .brand-box-wrap img{
         width: 100%;
     }
+    /* PoPular Section responsive */
+        .popular-items-wrap {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 25px;
+    }
+    .popular-item img {
+        width: 100%;
+    }
+    /* Feature section */
+        .feature-product-section {
+        padding: 26px 0 50px 0;
+    }
+    .feature-content-wrap {
+        flex-direction: column;
+    }
+    .feature-image img{
+        width: 100%;
+    }
+    .feature-content h1 {
+        font-size: 28px;
+    }
+    .feature-content p {
+        font-weight: 500;
+        width: 100%;
+    }
+    /* footer section */
+    .footer-content-box {
+        width: 100%;
+    }
 }
