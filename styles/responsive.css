@@ -14,5 +14,35 @@
     .menu-items{
         display: none;
     }
-
+    /* Banner section */
+    .banner-section {
+        flex-direction: column-reverse;
+    }
+    .banner-img {
+        width: 100%;
+        text-align: center;
+        background: url(../images/Circle\ design.svg) no-repeat center center;
+        margin-bottom: 40px;
+    }
+    .banner-content{
+        width: 100%;
+        text-align: center;
+    }
+    .banner-content h1 {
+        font-size: 28px;
+    }
+    .banner-content p {
+        font-size: 14px;
+    }
+    .banner-img img {
+        width: 100%;
+    }
+    /* Branding Section */
+    .brand-box-wrap {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+    .brand-box-wrap img{
+        width: 100%;
+    }
 }
